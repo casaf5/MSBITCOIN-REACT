@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/MSBITCOIN-REACT/static/css/main.b726a54f.chunk.css",
+    "main.js": "/MSBITCOIN-REACT/static/js/main.c0ed1434.chunk.js",
+    "main.js.map": "/MSBITCOIN-REACT/static/js/main.c0ed1434.chunk.js.map",
+    "runtime-main.js": "/MSBITCOIN-REACT/static/js/runtime-main.1b48f996.js",
+    "runtime-main.js.map": "/MSBITCOIN-REACT/static/js/runtime-main.1b48f996.js.map",
+    "static/js/2.df7e9da0.chunk.js": "/MSBITCOIN-REACT/static/js/2.df7e9da0.chunk.js",
+    "static/js/2.df7e9da0.chunk.js.map": "/MSBITCOIN-REACT/static/js/2.df7e9da0.chunk.js.map",
+    "index.html": "/MSBITCOIN-REACT/index.html",
+    "precache-manifest.e357beae9bb118325193f7934a1f40f3.js": "/MSBITCOIN-REACT/precache-manifest.e357beae9bb118325193f7934a1f40f3.js",
+    "service-worker.js": "/MSBITCOIN-REACT/service-worker.js",
+    "static/css/main.b726a54f.chunk.css.map": "/MSBITCOIN-REACT/static/css/main.b726a54f.chunk.css.map",
+    "static/js/2.df7e9da0.chunk.js.LICENSE.txt": "/MSBITCOIN-REACT/static/js/2.df7e9da0.chunk.js.LICENSE.txt",
+    "static/media/Home.scss": "/MSBITCOIN-REACT/static/media/bg.a1b815da.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1b48f996.js",
+    "static/js/2.df7e9da0.chunk.js",
+    "static/css/main.b726a54f.chunk.css",
+    "static/js/main.c0ed1434.chunk.js"
+  ]
+}

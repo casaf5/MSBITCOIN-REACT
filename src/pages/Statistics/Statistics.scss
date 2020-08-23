@@ -1,0 +1,26 @@
+.statistics-page{
+    h1{
+       font-size: 25px;
+       text-decoration: underline;
+    }
+    svg{
+        width: 90vw;
+        height: 40vh;
+        border-bottom: 2px solid white;
+        padding: 10px;
+
+    }
+}
+
+@media (max-width:480px){
+    .statistics-page{
+        h1{
+           font-size: 11px;
+        }
+        svg{
+            width: 80vw;
+            height: 25vh;
+            
+        }
+    }
+}

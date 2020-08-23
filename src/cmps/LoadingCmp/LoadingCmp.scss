@@ -1,0 +1,53 @@
+.loader-wrapper {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  .loader {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border-top: 10px solid #f1c40f;
+    position: relative;
+    animation: spin 3s infinite linear;
+    justify-self: center;
+    align-self: center;
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      width: 150px;
+      height: 150px;
+      top: -15px;
+      left: 0;
+      border-radius: 50%;
+    }
+    &::before {
+      transform: rotate(120deg);
+      border-top: 10px solid #e74c3c;
+    }
+    &::after {
+      transform: rotate(240deg);
+      border-top: 10px solid #3498db;
+    }
+    span {
+      font-size: 15px;
+      width: 150px;
+      height: 150px;
+      position: absolute;
+      line-height: 150px;
+      text-align: center;
+      animation: spin-reverse 3s infinite linear;
+    }
+  }
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes spin-reverse {
+  to {
+    transform: rotate(-360deg);
+  }
+}

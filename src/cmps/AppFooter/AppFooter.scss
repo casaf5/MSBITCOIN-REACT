@@ -1,0 +1,16 @@
+footer{
+    background-color: #6da6b8;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    grid-row: 3/4;
+    grid-column: 1/4;
+    display: grid;
+    place-items: center;
+    h1{
+        margin:0;
+        padding: 0;
+        font-family: 'Permanent Marker', cursive;
+        font-size: 16px;
+    }
+}

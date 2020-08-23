@@ -1,0 +1,22 @@
+.contacts-filter {
+  input {
+    height: 40px;
+    width: 500px;
+    margin: 10px;
+    font-size: 18px;
+    padding-left: 5px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+  }
+}
+
+@media (max-width: 480px) {
+  .contacts-filter {
+    input {
+      width: 350px;
+    }
+  }
+}

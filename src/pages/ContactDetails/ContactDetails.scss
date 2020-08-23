@@ -1,0 +1,48 @@
+.contact-details {
+    margin: 25px auto;
+    img {
+      width: 150px;
+      align-self: center;
+      border: 2px solid black;
+      border-radius: 50%;
+    }
+    .contact-actions {
+      align-self: center;
+      i.fas {
+        font-size: 25px;
+        margin-top: 10px;
+        color:white;
+        margin:10px;
+        cursor: pointer;
+        transition: 0.2s all ease-in-out;
+        &:hover {
+          transform: scale(1.2);
+        }
+      }
+    }
+    .details {
+      align-self: center;
+      h4 {
+        width: 100%;
+        text-align: center;
+        margin: 5px;
+        padding: 10px;
+        font-size: 18px;
+      }
+    }
+
+  }
+  
+  @media (max-width: 480px) {
+    .contact-details {
+      width: 350px;
+      h4 {
+        width: 350px;
+        font-size: 14px;
+      }
+      .contact-transfer {
+        width: 340px;
+      }
+    }
+  }
+  

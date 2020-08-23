@@ -1,0 +1,37 @@
+.contact-preview{
+    border: 1px solid #73a9ba;
+    width: 220px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    i {
+      transition: all 0.1s ease-in-out;
+      color: lightgrey;
+      margin: 10px;
+      &:hover {
+        transform: scale(1.2);
+        color: black;
+      }
+    }
+    &:hover {
+      background-color: #73a9ba;
+    }
+    span {
+      color: white;
+    }
+    h3.contact-name{
+        font-size: 15px;
+        color: white;
+    }
+    img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border: 1px solid black;
+      padding: 10px;
+      align-self: center;
+    }
+}

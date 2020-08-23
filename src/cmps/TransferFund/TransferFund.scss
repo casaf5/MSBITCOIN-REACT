@@ -1,0 +1,42 @@
+.transfer {
+    align-self: center;
+    justify-content: center;
+    form {
+      justify-content: center;
+      input {
+        width: 500px;
+        // flex-grow: 1;
+        height: 40px;
+        font-size: 17px;
+        font-weight: bold;
+        margin-right: 5px;
+        padding: 5px;
+      }
+      button {
+        background-color: orange;
+        font-weight: bold;
+        color: white;
+      }
+    }
+  }
+  h3.error {
+    margin: 5px;
+    padding: 0;
+    font-size: 15px;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  @media (max-width: 480px) {
+    .transfer {
+      width: 330px;
+      form {
+        input {
+          width: 250px;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  
